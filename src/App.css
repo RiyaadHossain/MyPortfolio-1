@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-body{
-    font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+html{
+
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }
 .banner-box {
   height: 500px;
@@ -14,14 +17,20 @@ body{
     -9px -3px 20px 4px rgba(0, 0, 0, 0.53);
 }
 .social-box {
-  -webkit-box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+  -webkit-box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
   box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-  background: linear-gradient(145deg, #1e2024, #23272b)
+  background: linear-gradient(145deg, #1e2024, #23272b);
 }
 .social-box:hover {
-    -webkit-box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
-    box-shadow:  10px 10px 19px #181a1d, inset -21px -21px 19px #202225;
-    transition: all ease-in-out .5s;
-    transform: translateY(-5px);
-    background: #212428
+  -webkit-box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  box-shadow: 10px 10px 19px #181a1d, inset -21px -21px 19px #202225;
+  transition: all ease-in-out 0.5s;
+  transform: translateY(-5px);
+  background: #212428;
+}
+.skill-box {
+  -webkit-box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2),
+    -5px -5px 15px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2),
+    -5px -5px 15px 4px rgba(0, 0, 0, 0.2);
 }

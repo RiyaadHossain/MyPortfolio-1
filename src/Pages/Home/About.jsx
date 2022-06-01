@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../Assets/Image/banner-01.png";
+import AboutImg from "../../Assets/Image/IMG_9531.JPG";
 
 const About = () => {
   return (
@@ -8,9 +8,9 @@ const About = () => {
         <p className="text-lg mb-2">Get to Know Me</p>
         <h1 className="text-5xl font-bold text-white">About Me</h1>
       </div>
-      <div className="flex justify-evenly items-center">
+      <div className="flex mt-10 items-center">
         <div className="w-1/2">
-          <img className="max-w-md" src={AboutImg} alt="" />
+          <img className="max-w-xl h-[500px] object-cover border border-[#FF014F] mx-auto" src={AboutImg} alt="" />
         </div>
         <div className="w-1/2">
           <p className="text-[#FF014F] text-2xl">Who am I?</p>
@@ -31,7 +31,7 @@ const About = () => {
               <p className="text-lg">
                 <span className="text-gray-50">Name:</span> Riyad Hossain
               </p>
-              <p className="text-lg mt-3 text-[#FF014F]">
+              <p className="text-lg mt-3 text-[#f02a65ee]">
                 <span className="text-gray-50">Email:</span>{" "}
                 riyadhossain.dev@gmail.com
               </p>
@@ -45,10 +45,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-start mt-6 gap-x-7">
+          <div className="flex mt-6 gap-x-7">
               <div><button className="btn bg-[#FF014F] px-7 text-white border-0 rounded-full font-medium">Download CV</button></div>
-              <div class="divider w-28"></div>
-              <div></div>
+              
           </div>
         </div>
       </div>
