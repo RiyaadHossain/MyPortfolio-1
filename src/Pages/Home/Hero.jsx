@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../Assets/Image/banner-01.png";
+import Banner from "../../Assets/Image/Untitled design.png";
 import { Typewriter, useTypewriter } from "react-simple-typewriter";
 import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
 
@@ -11,7 +11,7 @@ const Hero = () => {
     cursorStyle: "|",
   });
   return (
-    <div className="h-[92vh] flex items-center justify-between container mx-auto">
+    <div id="home" className="h-[92vh] flex items-center justify-between container mx-auto">
       <div className="w-1/2">
         <p className="text-2xl font-thin">Welcome to My World</p>
         <h1 className="text-7xl my-6 font-bold text-slate-100">
@@ -37,16 +37,16 @@ const Hero = () => {
           <div>
             <h3 className="font-thin text-lg">FIND WITH ME -</h3>
             <div className="mt-5 flex gap-x-5">
-              <a href="/" className="social-box rounded-md flex items-center justify-center w-14 h-14">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/riyaad-hossain/" className="social-box rounded-md flex items-center justify-center w-14 h-14">
                <BsLinkedin className="text-2xl"/>
               </a>
               <div>
-                <a href="/" className="social-box rounded-md flex items-center justify-center w-14 h-14">
+                <a target="_blank" rel="noreferrer" href="https://github.com/RiyaadHossain" className="social-box rounded-md flex items-center justify-center w-14 h-14">
                   <BsGithub className="text-2xl"/>
                 </a>
               </div>
               <div>
-                <a href="/" className="social-box rounded-md flex items-center justify-center w-14 h-14">
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/Riyaad_Hossain" className="social-box rounded-md flex items-center justify-center w-14 h-14">
                   <BsTwitter className="text-2xl"/>
                 </a>
               </div>
@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="banner-box w-1/2">
-        <img className="h-[600px] absolute bottom-0" src={Banner} alt="" />
+        <img className="h-[500px] object-cover absolute bottom-0" src={Banner} alt="" />
       </div>
     </div>
   );

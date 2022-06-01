@@ -46,7 +46,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex mt-6 gap-x-7">
-              <div><button className="btn bg-[#FF014F] px-7 text-white border-0 rounded-full font-medium">Download CV</button></div>
+              <div><a href="https://drive.google.com/file/d/1UzAP_pzvOhBoJT_cJWLt1EPOk8BOVt7_/view?usp=sharing" target="_blank" rel="noreferrer" className="btn bg-[#FF014F] px-7 text-white border-0 rounded-full font-medium">Download CV</a></div>
               
           </div>
         </div>

@@ -26,7 +26,7 @@ const Skill = () => {
                 </div>
                 <div className="mt-3">
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> BootStrap 6
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> BootStrap 5
                   </p>
                   <span className="text-xs ml-6">Advance</span>
                 </div>
@@ -74,42 +74,42 @@ const Skill = () => {
               <div>
                 <div>
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> HTML 5
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Node
                   </p>
-                  <span className="text-xs ml-6">Advance</span>
+                  <span className="text-xs ml-6">Beginner</span>
                 </div>
                 <div className="mt-3">
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> BootStrap 6
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Express.js
                   </p>
-                  <span className="text-xs ml-6">Advance</span>
+                  <span className="text-xs ml-6">Intermediate</span>
                 </div>
                 <div className="mt-3">
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> JavaScript
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Firebase
                   </p>
-                  <span className="text-xs ml-6">intermediate</span>
+                  <span className="text-xs ml-6">Intermediate</span>
                 </div>
               </div>
               {/* Two Side */}
               <div>
                 <div>
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> CSS 3
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Nodemon
                   </p>
                   <span className="text-xs ml-6">Advance</span>
                 </div>
                 <div className="mt-3">
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Tailwind
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> MongoDB
                   </p>
-                  <span className="text-xs ml-6">Advance</span>
+                  <span className="text-xs ml-6">Beginner</span>
                 </div>
                 <div className="mt-3">
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> React.js
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> JWT Token
                   </p>
-                  <span className="text-xs ml-6">intermediate</span>
+                  <span className="text-xs ml-6">Beginner</span>
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ const Skill = () => {
         </div>
 
 
-        {/* ====================================== Front end ======================================*/}
+        {/* ====================================== Tools ======================================*/}
         <div className=" skill-box p-12 rounded-md">
           <div className="">
             <h3 className="text-2xl text-center font-bold mt-6 mb-8 text-white">
@@ -128,42 +128,42 @@ const Skill = () => {
               <div>
                 <div>
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> HTML 5
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Git
                   </p>
-                  <span className="text-xs ml-6">Advance</span>
+                  <span className="text-xs ml-6">Intermediate</span>
                 </div>
                 <div className="mt-3">
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> BootStrap 6
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Netlify
                   </p>
-                  <span className="text-xs ml-6">Advance</span>
+                  <span className="text-xs ml-6">Intermediate</span>
                 </div>
                 <div className="mt-3">
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> JavaScript
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Heroku
                   </p>
-                  <span className="text-xs ml-6">intermediate</span>
+                  <span className="text-xs ml-6">Beginner</span>
                 </div>
               </div>
               {/* Two Side */}
               <div className="textcen">
                 <div>
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> CSS 3
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> GitHub
                   </p>
                   <span className="text-xs ml-6">Advance</span>
                 </div>
                 <div className="mt-3">
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Tailwind
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Postman
                   </p>
                   <span className="text-xs ml-6">Advance</span>
                 </div>
                 <div className="mt-3">
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> React.js
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Figma
                   </p>
-                  <span className="text-xs ml-6">intermediate</span>
+                  <span className="text-xs ml-6">Intermediate</span>
                 </div>
               </div>
             </div>

@@ -11,7 +11,7 @@ import PolishedEvent from "../../Assets/Image/Polished Event.png"
 
 const Portfolio = () => {
   return (
-    <div className="container mx-auto">
+    <div id="portfolio" className="container mx-auto">
       <div className="text-center">
         <p className="text-lg mb-2">What I made</p>
         <h1 className="text-5xl font-bold text-white">My Portfolio</h1>
