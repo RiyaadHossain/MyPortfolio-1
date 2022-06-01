@@ -1,0 +1,22 @@
+.banner-box {
+  height: 500px;
+  width: 450px;
+  border: 1px solid rgb(32, 32, 32);
+  position: relative;
+  -webkit-box-shadow: 10px 9px 15px 0px rgba(0, 0, 0, 0.71),
+    -9px -3px 20px 4px rgba(0, 0, 0, 0.53);
+  box-shadow: 10px 9px 15px 0px rgba(0, 0, 0, 0.71),
+    -9px -3px 20px 4px rgba(0, 0, 0, 0.53);
+}
+.social-box {
+  -webkit-box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  background: linear-gradient(145deg, #1e2024, #23272b)
+}
+.social-box:hover {
+    -webkit-box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+    box-shadow:  10px 10px 19px #181a1d, inset -21px -21px 19px #202225;
+    transition: all ease-in-out .5s;
+    transform: translateY(-5px);
+    background: #212428
+}
