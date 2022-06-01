@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./About";
+import Contact from "./Contact";
 import Hero from "./Hero";
 import Portfolio from "./Portfolio";
 import Skill from "./Skill";
@@ -15,6 +16,7 @@ const Home = () => {
       <div class="divider text-black container mx-auto my-24"></div>
       <Portfolio />
       <div class="divider text-black container mx-auto my-24"></div>
+      <Contact/>
     </div>
   );
 };
