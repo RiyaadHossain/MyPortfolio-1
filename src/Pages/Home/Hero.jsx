@@ -35,18 +35,18 @@ const Hero = () => {
         </p>
         <div className="flex justify-between mt-14">
           <div>
-            <h3 className="font-bold text-lg">FIND WITH ME</h3>
+            <h3 className="font-thin text-lg">FIND WITH ME -</h3>
             <div className="mt-5 flex gap-x-5">
-              <a href="/" className="social-box rounded-md flex items-center justify-center w-16 h-16">
+              <a href="/" className="social-box rounded-md flex items-center justify-center w-14 h-14">
                <BsLinkedin className="text-2xl"/>
               </a>
               <div>
-                <a href="/" className="social-box rounded-md flex items-center justify-center w-16 h-16">
+                <a href="/" className="social-box rounded-md flex items-center justify-center w-14 h-14">
                   <BsGithub className="text-2xl"/>
                 </a>
               </div>
               <div>
-                <a href="/" className="social-box rounded-md flex items-center justify-center w-16 h-16">
+                <a href="/" className="social-box rounded-md flex items-center justify-center w-14 h-14">
                   <BsTwitter className="text-2xl"/>
                 </a>
               </div>

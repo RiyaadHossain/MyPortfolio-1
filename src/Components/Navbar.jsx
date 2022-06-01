@@ -26,43 +26,67 @@ const Navbar = () => {
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="/" to="/">Home</a>
+              <a className="text-xl font-thin" href="/" to="/">
+                Home
+              </a>
             </li>
             <li>
-              <a href="/" to="/about">About</a>
+              <a className="text-xl font-thin" href="#about" to="/about">
+                About
+              </a>
             </li>
             <li>
-              <a href="/" to="/">Skill</a>
+              <a className="text-xl font-thin" href="/" to="/">
+                Skill
+              </a>
             </li>
             <li>
-              <a href="/" to="/">Portfolio</a>
+              <a className="text-xl font-thin" href="/" to="/">
+                Portfolio
+              </a>
             </li>
             <li>
-              <a href="/" to="/">Contact</a>
+              <a className="text-xl font-thin" href="/" to="/">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
-        <a href="/" to="/" class="btn btn-ghost normal-case text-xl">
-          Riyad
+        <a
+          href="/"
+          to="/"
+          class="text-white normal-case font-bold text-2xl"
+        >
+          Riyad Hossain
         </a>
       </div>
       <div class="navbar-end hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
-        <li>
-              <a href="/" to="/">Home</a>
-            </li>
-            <li>
-              <a href="/" to="/">About</a>
-            </li>
-            <li>
-              <a href="/" to="/">Skill</a>
-            </li>
-            <li>
-              <a href="/" to="/">Portfolio</a>
-            </li>
-            <li>
-              <a href="/" to="/">Contact</a>
-            </li>
+          <li>
+            <a className="text-xl font-thin" href="#home" to="/">
+              Home
+            </a>
+          </li>
+          <li>
+            <a className="text-xl font-thin" href="#about" to="/">
+              About
+            </a>
+          </li>
+          <li>
+            <a className="text-xl font-thin" href="/" to="/">
+              Skill
+            </a>
+          </li>
+          <li>
+            <a className="text-xl font-thin" href="/" to="/">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a className="text-xl font-thin" href="/" to="/">
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
     </div>
