@@ -4,28 +4,28 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillGithub,
-  AiFillFacebook
+  AiFillFacebook,
 } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="bg-slate-900 mt-16">
-      <div className="flex gap-5 container mx-auto py-16">
-        <div className="w-3/6">
+    <div className="bg-slate-900 mt-16 px-3 lg:px-0">
+      <div className="flex flex-col lg:flex-row gap-12 lg:gap-5 container mx-auto py-16">
+        <div className="lg:w-3/6">
           <h3 className="uppercase text-white text-xl">My Career</h3>
-          <p className="my-6 font-thin">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            obcaecati inventore quibusdam! Neque nesciunt commodi numquam aut
-            voluptatum quisquam? Dicta!
+          <p className="my-2 lg:my-6 font-thin">
+            I started my coding journey in August 2021. Currently, I am learing
+            fron-end development. However, I want to be a full stack web
+            developer in next 3 years.
           </p>
           <p className="font-thin">
             Copyright ©2022 All rights reserved | This portfolio is made with ❤
-            by <br /> <span className="text-[#FF014F]">Riyad</span>
+            by  <span className="text-[#FF014F]">Riyad</span>
           </p>
         </div>
-        <div className="w-2/6">
+        <div className="lg:w-2/6">
           <h3 className="uppercase text-white text-xl">Newsletter</h3>
-          <p className="mt-6 font-thin">Stay updated with my latest blog</p>
+          <p className="mt-2 lg:mt-6 font-thin">Stay updated with my latest blog</p>
           <div class="form-control rounded-none">
             <div class="input-group mt-5">
               <input
@@ -39,17 +39,29 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/6">
+        <div className="lg:w-1/6">
           <h3 className="uppercase text-white text-xl">Follow Me</h3>
-          <p className="mt-6 font-thin">Let's Be Social</p>
+          <p className="mt-2 lg:mt-6 font-thin">Let's Be Social</p>
           <div className="flex items-center gap-5 mt-3">
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/riyaad-hossain/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/riyaad-hossain/"
+            >
               <AiFillLinkedin className="text-3xl hover:text-[#FF014F] hover:translate-y-1 transition-all" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/Riyaad_Hossain">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/Riyaad_Hossain"
+            >
               <AiFillTwitterCircle className="text-3xl hover:text-[#FF014F] hover:translate-y-1 transition-all" />
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/RiyaadHossain">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/RiyaadHossain"
+            >
               <AiFillGithub className="text-3xl hover:text-[#FF014F] hover:translate-y-1 transition-all" />
             </a>
             <a target="_blank" rel="noreferrer" href="/">

@@ -8,16 +8,16 @@ const About = () => {
         <p className="text-lg mb-2">Get to Know Me</p>
         <h1 className="text-5xl font-bold text-white">About Me</h1>
       </div>
-      <div className="flex mt-10 items-center">
-        <div className="w-1/2">
-          <img className="max-w-xl h-[500px] object-cover border border-[#FF014F] mx-auto" src={AboutImg} alt="" />
+      <div className="flex  mt-10 flex-col lg:flex-row items-center">
+        <div className="lg:w-1/2">
+          <img className="lg:max-w-xl mb-6 lg:mb-0 h-[500px] object-cover border border-[#FF014F] mx-auto" src={AboutImg} alt="" />
         </div>
-        <div className="w-1/2">
-          <p className="text-[#FF014F] text-2xl">Who am I?</p>
-          <h1 className="text-4xl my-5 text-white font-bold">
+        <div className="lg:w-1/2">
+          <p className="text-[#FF014F] text-xl lg:text-2xl">Who am I?</p>
+          <h1 className="text-3xl lg:text-4xl my-5 text-white font-bold">
             I am a professional Front-end Developer
           </h1>
-          <p className="text-xl">
+          <p className="text-lg lg:text-xl">
             Front-end Developer with proven skills-building professional MERN
             projects. Capable of continuous learning new and updated
             technologies as I possess tremendous zeal about technology.
@@ -26,7 +26,7 @@ const About = () => {
             ways to maximize user efficiency.
           </p>
           <div class="divider container mx-auto my-12"></div>
-          <div className="flex justify-between">
+          <div className="flex flex-col lg:flex-row justify-between">
             <div className="">
               <p className="text-lg">
                 <span className="text-gray-50">Name:</span> Riyad Hossain

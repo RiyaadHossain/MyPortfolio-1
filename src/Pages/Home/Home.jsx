@@ -7,7 +7,7 @@ import Skill from "./Skill";
 
 const Home = () => {
   return (
-    <div>
+    <div className="px-3 lg:px-0">
       <Hero />
       <div class="divider text-black container mx-auto mb-24"></div>
       <About />
