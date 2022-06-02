@@ -20,7 +20,7 @@ const Portfolio = () => {
 
           {/* Project */}
         <a target="_blank" rel="noreferrer" href="https://auto-parts-001.web.app/" className="p-5 bg-gray-900 rounded-md project-card transition-all ">
-          <img className="object-cover rounded-md" src={AutoParts} alt="" />
+          <img className="object-cover overflow-hidden rounded-md" src={AutoParts} alt="" />
           <div className="mt-5">
             <p className="text-[#FF014F]">#1 MERN Project </p>
             <h2 className="text-2xl font-semibold">AutoParts - Manufucturer Website</h2>

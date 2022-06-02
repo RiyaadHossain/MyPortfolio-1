@@ -1,0 +1,20 @@
+[debug] [2022-06-02T05:24:57.431Z] ----------------------------------------------------------------------
+[debug] [2022-06-02T05:24:57.433Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Riyad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-02T05:24:57.434Z] CLI Version:   11.0.1
+[debug] [2022-06-02T05:24:57.434Z] Platform:      win32
+[debug] [2022-06-02T05:24:57.434Z] Node Version:  v16.15.0
+[debug] [2022-06-02T05:24:57.437Z] Time:          Thu Jun 02 2022 11:24:57 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-06-02T05:24:57.437Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-02T05:24:57.504Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-02T05:24:57.504Z] > authorizing via signed-in user (riyadhossain017037@gmail.com)
+[debug] [2022-06-02T05:24:57.505Z] [iam] checking project portfolio-riyad for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-02T05:24:57.506Z] > refreshing access token with scopes: []
+[debug] [2022-06-02T05:24:57.507Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-06-02T05:24:57.863Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Thu, 02 Jun 2022 05:24:56 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-06-02T05:24:57.878Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-riyad:testIamPermissions [none]
+[debug] [2022-06-02T05:24:57.878Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-riyad:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-02T05:24:59.300Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-riyad:testIamPermissions 200
+[debug] [2022-06-02T05:24:59.301Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-riyad:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-02T05:24:59.302Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-riyad [none]

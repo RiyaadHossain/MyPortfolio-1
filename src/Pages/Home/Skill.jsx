@@ -117,11 +117,11 @@ const Skill = () => {
         </div>
 
 
-        {/* ====================================== Tools ======================================*/}
+        {/* ====================================== Technologies ======================================*/}
         <div className=" skill-box p-12 rounded-md">
           <div className="">
             <h3 className="text-2xl text-center font-bold mt-6 mb-8 text-white">
-              Tools
+              Technologies
             </h3>
             <div className="flex justify-evenly  mt-3 items-center">
               {/* One Side */}
@@ -164,6 +164,61 @@ const Skill = () => {
                     <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Figma
                   </p>
                   <span className="text-xs ml-6">Intermediate</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        {/* ====================================== React ======================================*/}
+        <div className=" skill-box p-12 rounded-md">
+          <div className="">
+            <h3 className="text-2xl text-center font-bold mt-6 mb-8 text-white">
+              React Tools
+            </h3>
+            <div className="flex justify-evenly  mt-3 items-center">
+              {/* One Side */}
+              <div>
+                <div>
+                  <p className="text-lg font-semibold flex items-center">
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> JSX
+                  </p>
+                  <span className="text-xs ml-6">Advance</span>
+                </div>
+                <div className="mt-3">
+                  <p className="text-lg font-semibold flex items-center">
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> React Router DOM
+                  </p>
+                  <span className="text-xs ml-6">Advance</span>
+                </div>
+                <div className="mt-3">
+                  <p className="text-lg font-semibold flex items-center">
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> React Form
+                  </p>
+                  <span className="text-xs ml-6">Beginner</span>
+                </div>
+              </div>
+              {/* Two Side */}
+              <div className="textcen">
+                <div>
+                  <p className="text-lg font-semibold flex items-center">
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> React Hook
+                  </p>
+                  <span className="text-xs ml-6">Advance</span>
+                </div>
+                <div className="mt-3">
+                  <p className="text-lg font-semibold flex items-center">
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Context API 
+                  </p>
+                  <span className="text-xs ml-6">Intermediate</span>
+                </div>
+                <div className="mt-3">
+                  <p className="text-lg font-semibold flex items-center">
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> Components
+                  </p>
+                  <span className="text-xs ml-6">Advance</span>
                 </div>
               </div>
             </div>

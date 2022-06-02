@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../Assets/Image/Untitled design.png";
+import Banner from "../../Assets/Image/Riyad Banner Photo.png";
 import { Typewriter, useTypewriter } from "react-simple-typewriter";
 import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
 
@@ -20,7 +20,7 @@ const Hero = () => {
         <h1 className="text-5xl text-slate-100 font-bold">
           a{" "}
           <Typewriter
-            words={[" Web Developer.", " Coder.", " React Develoer."]}
+            words={[" Web Developer.", " Coder.", " React Developer."]}
             loop={0}
             cursor
             cursorStyle="|"
@@ -35,7 +35,7 @@ const Hero = () => {
         </p>
         <div className="flex justify-between mt-14">
           <div>
-            <h3 className="font-thin text-lg">FIND WITH ME -</h3>
+            <h3 className="font-medium text-lg">FIND WITH ME -</h3>
             <div className="mt-5 flex gap-x-5">
               <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/riyaad-hossain/" className="social-box rounded-md flex items-center justify-center w-14 h-14">
                <BsLinkedin className="text-2xl"/>
@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="banner-box w-1/2">
-        <img className="h-[500px] object-cover absolute bottom-0" src={Banner} alt="" />
+        <img className="h-[650px] object-cover absolute bottom-0" src={Banner} alt="" />
       </div>
     </div>
   );
