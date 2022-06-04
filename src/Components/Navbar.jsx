@@ -52,7 +52,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a href="/" to="/" class="text-white normal-case font-bold text-base lg:text-2xl">
+        <a href="/" to="/" class="text-white title2 normal-case font-bold text-base lg:text-2xl">
           Riyad Hossain
         </a>
       </div>

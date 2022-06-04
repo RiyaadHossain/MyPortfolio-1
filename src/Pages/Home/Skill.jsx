@@ -189,7 +189,7 @@ const Skill = () => {
                 </div>
                 <div className="mt-3">
                   <p className="text-lg font-semibold flex items-center">
-                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> React Router DOM
+                    <BsFillAwardFill className="mr-2 text-[#d72a5e]" /> React Router
                   </p>
                   <span className="text-xs ml-6">Advance</span>
                 </div>

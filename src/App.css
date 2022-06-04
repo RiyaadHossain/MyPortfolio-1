@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 html {
   scroll-behavior: smooth;
 }
 body {
   font-family: "Poppins", sans-serif;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+}
+.title2 {
+  font-family: "Ubuntu", sans-serif;
 }
 .banner-box {
   height: 500px;
@@ -36,12 +44,47 @@ body {
   transform: scale(1.03);
   transition: all linear 0.3s;
 }
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 794px) {
+  .banner-box {
+    height: 250px;
+    width: 250px;
+  }
+  .banner-box img {
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 795px) and (max-width:1024px) {
+  .hero-img{
+    max-height:320px ;
+  }
   .banner-box {
     height: 300px;
-    width: 350px;
+    width: 300px;
   }
-  .banner-box img{
-    max-height:200px ;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .container{
+    padding: 0 3%;
+  }
+  .hero-title{
+    font-size: 45px;
+  }
+  .hero-subtitle{
+    font-size: 38px;
+  }
+  .banner-box {
+    height: 450px;
+    width: 400px;
+  }
+  .hero-img {
+    height: 550px;
+  }
+  .about-img {
+    width: 450px;
+  }
+  .footer{
+    padding: 25px 0;
   }
 }

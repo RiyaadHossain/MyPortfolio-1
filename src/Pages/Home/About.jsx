@@ -10,7 +10,7 @@ const About = () => {
       </div>
       <div className="flex  mt-10 flex-col lg:flex-row items-center">
         <div className="lg:w-1/2">
-          <img className="lg:max-w-xl mb-6 lg:mb-0 h-[500px] object-cover border border-[#FF014F] mx-auto" src={AboutImg} alt="" />
+          <img className="lg:max-w-xl about-img mb-6 lg:mb-0 h-[500px] object-cover border border-[#FF014F] mx-auto" src={AboutImg} alt="" />
         </div>
         <div className="lg:w-1/2">
           <p className="text-[#FF014F] text-xl lg:text-2xl">Who am I?</p>
