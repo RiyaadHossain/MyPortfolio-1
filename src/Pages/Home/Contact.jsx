@@ -5,7 +5,7 @@ import { MdAlternateEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div id="contact" className="container mx-auto">
+    <div id="contact" className="container py-12 mx-auto">
       <div className="text-center">
         <p className="text-lg mb-2">Get in Touch</p>
         <h1 className="text-5xl font-bold text-white">Contact with Me</h1>

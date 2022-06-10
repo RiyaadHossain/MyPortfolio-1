@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-slate-900 footer mt-16 px-3 lg:px-0">
+    <div className="bg-slate-900 footer px-3 lg:px-0">
       <div className="flex flex-col lg:flex-row gap-12 lg:gap-5 container mx-auto py-16">
         <div className="lg:w-3/6">
           <h3 className="uppercase text-white text-xl">My Career</h3>

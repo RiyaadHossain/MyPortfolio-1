@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -26,62 +27,69 @@ const Navbar = () => {
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a className="text-xl font-thin hover:bg-none" href="#home" to="/">
+              <a className="text-xl font-thin hover:bg-none" href="home">
                 Home
               </a>
             </li>
             <li>
-              <a className="text-xl font-thin" href="#about" to="/about">
+              <a className="text-xl font-thin" href="home#about" to="/about">
                 About
               </a>
             </li>
             <li>
-              <a className="text-xl font-thin" href="#skill" to="/">
+              <a className="text-xl font-thin" href="home#skill" to="/">
                 Skill
               </a>
             </li>
             <li>
-              <a className="text-xl font-thin" href="#portfolio" to="/">
+              <a className="text-xl font-thin" href="home#portfolio" to="/">
                 Portfolio
               </a>
             </li>
             <li>
-              <a className="text-xl font-thin" href="#contact" to="/">
+              <a className="text-xl font-thin" href="home#contact" to="/">
                 Contact
               </a>
             </li>
           </ul>
         </div>
-        <a href="/" to="/" class="text-white title2 normal-case font-bold text-base lg:text-2xl">
+        <a
+          href="/"
+          to="/"
+          class="text-white title2 normal-case font-bold text-base lg:text-2xl"
+        >
           Riyad Hossain
         </a>
       </div>
       <div class="navbar-end hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
           <li>
-            <a className="text-xl font-thin" href="#home" to="/">
+            <Link to="/" className="text-xl font-thin" >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="text-xl font-thin" href="#about" to="/about">
+            <Link to="/about" className="text-xl font-thin">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="text-xl font-thin" href="#skill" to="/">
+            <Link to="/skill" className="text-xl font-thin" >
               Skill
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="text-xl font-thin" href="#portfolio" to="/">
+            <Link to="/portfolio" className="text-xl font-thin">
               Portfolio
-            </a>
+            </Link>
+            <Link className="text-xl font-thin"  to="/blog">
+              Blog
+            </Link>
           </li>
           <li>
-            <a className="text-xl font-thin" href="#contact" to="/">
+            <Link to="contact" className="text-xl font-thin" >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

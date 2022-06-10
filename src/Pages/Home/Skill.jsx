@@ -3,7 +3,7 @@ import { BsFillAwardFill } from "react-icons/bs";
 
 const Skill = () => {
   return (
-    <div id="skill" className="container mx-auto">
+    <div id="skill" className="container py-12 mx-auto">
       <div className="text-center mb-11">
         <p className="text-lg mb-2">What I can Do</p>
         <h1 className="text-5xl font-bold text-white">My Skill</h1>

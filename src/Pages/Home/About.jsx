@@ -3,7 +3,7 @@ import AboutImg from "../../Assets/Image/RiyadSitting.png";
 
 const About = () => {
   return (
-    <div id="about" className="container mx-auto">
+    <div id="about" className="container py-12 mx-auto">
       <div className="text-center">
         <p className="text-lg mb-2">Get to Know Me</p>
         <h1 className="text-5xl font-bold text-white">About Me</h1>

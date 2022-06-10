@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "AutoParts - A Manufucturer Website",
+    "tech": "#1 MERN Project",
+    "img": "https://i.ibb.co/VvkT92N/Auto-Parts.png"
+  },
+  {
+    "id": 2,
+    "name": "Doctors Portal - Doctors Appointment",
+    "tech": "#2 MERN Project ",
+    "img": "https://i.ibb.co/kxLRTrR/Doctors-Portal.png"
+  },
+  {
+    "id": 3,
+    "name": " Laptop Hub - Warehouse Management",
+    "tech": "#3 Full Stack",
+    "img": "https://i.ibb.co/wCSJ61S/Laptop-Hub.png"
+  },
+  {
+    "id": 4,
+    "name": "To Do App - Daily Task Manager",
+    "tech": "#4 React Application ",
+    "img": "https://i.ibb.co/Mg1vxf3/ToDoApp.png"
+  },
+  {
+    "id": 5,
+    "name": "Travel Mania - Servie Provider",
+    "tech": "#5 Front End Project ",
+    "img": "https://i.ibb.co/r2Lqs36/Travel-Mania.png"
+  },
+  {
+    "id": 6,
+    "name": "My Wallet - Calculate Monthly Cost",
+    "tech": "#6 JavaScript Project ",
+    "img": "https://i.ibb.co/YRQb9NX/My-Wallet.png"
+  }
+]
