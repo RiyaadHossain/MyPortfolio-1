@@ -54,9 +54,9 @@ body {
   }
 }
 
-@media screen and (min-width: 795px) and (max-width:1024px) {
-  .hero-img{
-    max-height:320px ;
+@media screen and (min-width: 795px) and (max-width: 1024px) {
+  .hero-img {
+    max-height: 320px;
   }
   .banner-box {
     height: 300px;
@@ -64,14 +64,14 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-  .container{
+@media screen and (min-width: 1024px) and (max-width: 1480px) {
+  .container {
     padding: 0 3%;
   }
-  .hero-title{
+  .hero-title {
     font-size: 45px;
   }
-  .hero-subtitle{
+  .hero-subtitle {
     font-size: 38px;
   }
   .banner-box {
@@ -84,7 +84,13 @@ body {
   .about-img {
     width: 450px;
   }
-  .footer{
+  .footer {
     padding: 25px 0;
+  }
+}
+
+@media screen and (min-width: 1481px) {
+  .hero-img {
+    height: 600px;
   }
 }
